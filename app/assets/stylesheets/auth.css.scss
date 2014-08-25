@@ -1,3 +1,97 @@
 // Place all the styles related to the auth controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+button.github {
+    color : white;
+    font-size : 14pt;
+    background-color:#333333;
+    background: #333 8px 7px no-repeat;
+    background: 8px 7px no-repeat,-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333), color-stop(100%, #161616));
+    background: 8px 7px no-repeat,-webkit-linear-gradient(top, #333, #161616);
+    background: 8px 7px no-repeat,-moz-linear-gradient(top, #333, #161616);
+    background: 8px 7px no-repeat,-o-linear-gradient(top, #333, #161616);
+    border:1px solid #000;-webkit-box-shadow:inset 0 1px 1px rgba(255,255,255,0.3),0 1px 2px 0px rgba(0,0,0,0.4);-moz-box-shadow:inset 0 1px 1px rgba(255,255,255,0.3),0 1px 2px 0px rgba(0,0,0,0.4);
+    box-shadow:inset 0 1px 1px rgba(255,255,255,0.3),0 1px 2px 0px rgba(0,0,0,0.4)
+}
+
+body>header {
+            padding: 15px 0 0;
+            background: rgba(0,0,0,0.2) url("https://d2dfho4r6t7asi.cloudfront.net/assets/dark-0f39b1998600577222d5066cf957c8cb.png");
+            display: block;
+            position: relative;
+            text-align: right;
+            vertical-align: middle;
+}
+
+.light {
+       background: #e4e4e4 url("https://d2dfho4r6t7asi.cloudfront.net/assets/white-b322e5db6772251ade954db4ccc0efac.png");
+       border-top: 1px solid #fff;
+       border-bottom: 1px solid #ccc;
+       color: #555;
+}
+
+
+.form-control {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+-o-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset rgba(0,0,0,0.2) 0 1px 3px 0,0 1px 0 rgba(255,255,255,0.2);
+-moz-box-shadow: inset rgba(0,0,0,0.2) 0 1px 3px 0,0 1px 0 rgba(255,255,255,0.2);
+box-shadow: inset rgba(0,0,0,0.2) 0 1px 3px 0,0 1px 0 rgba(255,255,255,0.2);
+-webkit-transition: background,color 0.2s linear;
+-moz-transition: background,color 0.2s linear;
+-o-transition: background,color 0.2s linear;
+transition: background,color 0.2s linear;
+background: #efefef;
+background: #efefef -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #f4f4f4));
+background: #efefef -webkit-linear-gradient(#efefef, #f4f4f4);
+background: #efefef -moz-linear-gradient(#efefef, #f4f4f4);
+background: #efefef -o-linear-gradient(#efefef, #f4f4f4);
+background: #efefef linear-gradient(#efefef,#f4f4f4);
+color: #333;
+font-size: 16px;
+padding: 10px 15px;
+text-shadow: #fff 0 1px 0;
+border: 1px solid #222;
+border: 1px solid rgba(0,0,0,0.3);
+width: 430px;
+margin: 0;
+}
+
+#password {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+-o-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset rgba(0,0,0,0.2) 0 1px 3px 0,0 1px 0 rgba(255,255,255,0.2);
+-moz-box-shadow: inset rgba(0,0,0,0.2) 0 1px 3px 0,0 1px 0 rgba(255,255,255,0.2);
+box-shadow: inset rgba(0,0,0,0.2) 0 1px 3px 0,0 1px 0 rgba(255,255,255,0.2);
+-webkit-transition: background,color 0.2s linear;
+-moz-transition: background,color 0.2s linear;
+-o-transition: background,color 0.2s linear;
+transition: background,color 0.2s linear;
+background: #efefef;
+background: #efefef -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #f4f4f4));
+background: #efefef -webkit-linear-gradient(#efefef, #f4f4f4);
+background: #efefef -moz-linear-gradient(#efefef, #f4f4f4);
+background: #efefef -o-linear-gradient(#efefef, #f4f4f4);
+background: #efefef linear-gradient(#efefef,#f4f4f4);
+color: #333;
+font-size: 16px;
+padding: 10px 15px;
+text-shadow: #fff 0 1px 0;
+border: 1px solid #222;
+border: 1px solid rgba(0,0,0,0.3);
+width: 430px;
+margin: 0;
+}
+
+.form-group {
+    margin-top : 25px;
+    margin-bottom : 25px;
+}
